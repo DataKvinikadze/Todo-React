@@ -1,0 +1,19 @@
+header {
+  background-color: #0d0d0d;
+  .header_container {
+    max-width: 1440px;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header_content {
+      max-width: 756px;
+      width: 100%;
+      padding: 0px 10px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
