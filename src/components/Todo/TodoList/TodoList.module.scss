@@ -1,0 +1,13 @@
+.todo_container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 91px auto 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ul {
+    margin-top: 24px;
+    max-width: 736px;
+    width: 100%;
+  }
+}

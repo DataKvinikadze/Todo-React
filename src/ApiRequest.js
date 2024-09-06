@@ -1,13 +1,13 @@
-const ApiRequest = async (url = "", optionObj = null) => {
+const apiRequest = async (url = "", optionObj = null) => {
   let errMsg = null;
   try {
-    const response = await fetch(url, optionObj);
-    if (!response.ok) throw new Error("Reload!");
-    return await response.json();
+    const responsive = await fetch(url, optionObj);
+    if (!responsive.ok) throw new Error("please Reload this App");
+    return await responsive.json();
   } catch (err) {
-    errMsg = err.msg;
+    errMsg = err.messege;
     return { error: errMsg };
   }
 };
 
-export default ApiRequest;
+export default apiRequest;

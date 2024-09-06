@@ -4,11 +4,23 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  position: relative;
   .flex_wrapper {
-    max-width: 716px;
+    position: absolute;
+    top: -27px;
+    max-width: 756px;
     width: 100%;
     padding: 0px 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    input {
+      border-radius: 8px;
+      border: none;
+      max-width: 644px;
+      width: 100%;
+      background-color: #262626;
+      color: #808080;
+      padding-left: 16px;
+    }
   }
 }

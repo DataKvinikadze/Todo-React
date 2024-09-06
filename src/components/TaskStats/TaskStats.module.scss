@@ -1,0 +1,30 @@
+.todo_title {
+  max-width: 736px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .tasks_created {
+    display: flex;
+    column-gap: 8px;
+  }
+  .tasks_completed {
+    display: flex;
+    column-gap: 8px;
+  }
+  .text {
+    font-size: 14px;
+    color: #4ea8de;
+    font-weight: bold;
+  }
+  .number {
+    font-size: 12px;
+    background-color: #333333;
+    color: #d9d9d9;
+    border-radius: 999px;
+    width: 30px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
